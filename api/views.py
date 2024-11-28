@@ -7,5 +7,5 @@ class SignupView(APIView):
     permission_classes = [AllowAny]
 
     def post(self, request):
-        # Your signup logic here
+        
         return Response({"message": "Signup successful!"}, status=status.HTTP_201_CREATED)
